@@ -1,0 +1,1 @@
+Sou um cinéfilo e com base nisso, usei dos meus conhecimentos obtidos na Imeersão DEV da Alura com o Google Gemini, a fim de criar um site onde mostrasse um pouco sobre diretores que eu gosto bastante e que eu considero essenciais para a história do cinema.
