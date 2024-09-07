@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+
+    <!-- Define o tipo de documento como HTML5 -->
+  <meta charset="UTF-8">
+    <!-- Define o conjunto de caracteres como UTF-8 para suportar caracteres internacionais -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Define a viewport para responsividade, ajustando o tamanho da página para diferentes dispositivos -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+    <!-- Pré-conecta com o servidor Google Fonts para carregar as fontes mais rapidamente -->
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Pré-conecta com o servidor Google Fonts para carregar as fontes mais rapidamente -->
+  <link href="https://fonts.googleapis.com/css2?family=Baskervville+SC&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <!-- Importa as fontes Baskervville SC e Montserrat do Google Fonts -->
+  <link rel="stylesheet" href="styles.css">
+    <!-- Importa o arquivo de estilos CSS -->
+
+  <title>Diretores Essenciais para a História do Cinema</title>
+  <!-- Define o título da página -->
+</head>
+
+<body>
+  <!-- Início do corpo da página -->
+   <header>
+           <h1 style="text-align: center;">Diretores Essenciais para a História do Cinema</h1>
+   </header>
+  <!-- Define o cabeçalho da página -->
+
+       <img src="images\directores.jpg" height="300" width="500" alt="Imagem de alguns Diretores">
+  <!-- Insere uma imagem com altura e largura definidas e um texto alternativo -->
+  <main>
+         <section>
+                 <input type="text" id="pesquisa" placeholder="Digite o nome do diretor(a)">
+                   <!-- Campo de entrada de texto para pesquisa -->
+                 <button onclick="pesquisar()">Pesquisar</button>
+                   <!-- Botão para iniciar a pesquisa -->
+                 <section id="resultados-pesquisa"></section>
+                   <!-- Seção para exibir os resultados da pesquisa -->
+         </section>
+        <article class="diretor">
+        </article>
+        </main>
+  <!-- Define a área principal do conteúdo -->
+    <footer>
+    </footer>
+  <!-- Define o rodapé da página -->
+       <script src="dados.js"></script>
+  <!-- Importa o arquivo JavaScript "dados.js" -->
+       <script src="app.js"></script>
+  <!-- Importa o arquivo JavaScript "app.js" -->
+</body>
+</html>
